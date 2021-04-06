@@ -1,0 +1,453 @@
+.clearfix {
+  clear: both;
+}
+
+.linear-transition {    
+  transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+}
+
+.ease-out-transition {
+  transition: background-color 300ms ease-out;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+}
+
+/*Overrides for foundation grid -----------------------------------------*/
+#Grid li {
+  transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+  padding: 0.25em;
+}
+
+.large-block-grid-3 > li:nth-of-type(3n+1) {
+  clear: none;
+}
+
+/*Header -----------------------------------------------------------------*/
+.top-bar, 
+.top-bar .top-bar-section ul, 
+.top-bar .top-bar-section ul li a,
+.top-bar .top-bar-section ul li a:hover,
+.title-area .name h1 a, 
+.top-bar.expanded .title-area {
+  background: white;
+  color: #3d3d3d;
+}
+
+.top-bar .toggle-topbar.menu-icon a span {
+  -webkit-box-shadow: 0 10px 0 1px black, 0 16px 0 1px black, 0 22px 0 1px black;
+  box-shadow: 0 10px 0 1px black, 0 16px 0 1px black, 0 22px 0 1px black;
+}
+
+.top-bar .top-bar-section ul li a {
+  color: #777;
+}
+
+nav.top-bar {
+  padding-top: 20px;
+  height: 115px;
+}
+
+.top-bar-section ul li a{
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.top-bar-section ul {
+  margin-top: 33px;
+}
+
+/*Logo*/
+.title-area .name h1 a {
+  font-size: 2em;
+  padding-left: 0.1em;
+  font-weight: 400;
+}
+
+.name .description {
+  padding-left: 0.35em;
+  padding-bottom: 1em;
+  font-size: 18px;
+}
+
+/*Active Links*/
+.portfolio .top-bar .top-bar-section ul li.portfolio a,
+.about .top-bar .top-bar-section ul li.about a,
+.case-study .top-bar .top-bar-section ul li.case-study a,
+.art .top-bar .top-bar-section ul li.art a,
+.contact .top-bar .top-bar-section ul li.contact a {
+  color: #1d1d1d;
+}
+
+/*Drop-down Button-------------------------------------------------------*/
+.button {
+  padding: 12px 18px;
+  border: none;
+  box-shadow: none;
+  font-weight: 500;
+  font-size: 15px;
+  min-width: 225px;
+  text-align: left;
+  margin-right: 7px;
+  background-color: #18a68d;
+}
+
+.button:hover {
+  background-color: #18a68d;
+}
+
+.dropdown.button:before {
+  border-width: 0.4em;
+}
+
+.controls .f-dropdown  li {
+  margin-left: 15px;
+  cursor: pointer;
+  list-style-type: none;
+  padding: 5px 1px;
+}
+.controls .f-dropdown {
+  margin-top: 24px;
+  background-color: rgba(0,0,0,0.60);
+  color: #f2f2f2;
+  max-width: 200px;
+  font-weight: 300;
+  padding: 10px 0px 10px 0px;
+  border: none;
+  min-width: 225px;
+}
+
+.controls .f-dropdown:before,
+.controls .f-dropdown:after {
+  display: none;
+}
+
+.f-dropdown li:hover, .f-dropdown li:focus {
+  background: none;
+  color: #f8dfc8;
+}
+
+/*Organic tabs portfolio section -----------------------------------------*/
+.listing_view .img {
+  margin-bottom:15px;
+}
+
+.listing_view p {
+  margin-bottom: 10px;
+}
+
+.listing_view .synopsis ul li {
+  color: #555555;
+  font-size: 12.5px;
+  line-height: 22px;
+  list-style-type: circle;
+  margin-left: 30px;
+  
+}
+
+.listing_view .synopsis h4 {
+  color: #365A84;
+  font-size: 13px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  margin-top: 13px;
+}
+
+.listing_view {
+  width: 608px;
+}
+
+.listing_view_full_view {
+  clear: both;
+  width: 940px;
+}
+
+.listing_view_full_view .synopsis {
+  float: right;
+  width: 275px;
+  padding-right: 30px;
+}
+
+.listing_view_full_view .synopsis p {
+  text-align: left;
+}
+
+.main_content h1 {
+	font-family: Georgia, serif;
+	font-weight: normal;
+	text-align: center;
+}
+.main_content h2 {
+	padding: 20px 0 0;
+	font-family: Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: 24px;
+	color: #9f9f9f;
+	color: #5478a1;
+	letter-spacing: 1px;
+}
+
+.main_content h3 {
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #9f9f9f;
+  color: #365a84;
+  padding-top:6px;
+  line-height: 21px;
+}
+
+.side_bar h2 {
+	font-size:16px;
+	font-variant:small-caps;
+	letter-spacing:1px;
+	margin-top:4px;
+	margin-bottom: 20px;
+	color: #2B598D;
+}
+
+.main_content p {
+	color:#555555;
+	font-size:12.5px;
+	line-height:22px;
+	margin-bottom:15px;
+	text-align:justify;
+}
+
+.main_content p a,
+.side_bar a,
+#nav a,
+.main h2 a {
+	color: #4E7DB3;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
+}
+
+.main_content p a:hover,
+.side_bar a:hover,
+#nav a:hover, .main h2 a:hover  {
+	border-bottom: 1px solid #4E7DB3;
+}
+
+.img {
+  border: 1px solid #C2CEE4;
+  padding: 3px;
+}
+
+/*Styles for the overlay*/
+.main_content .organic_tabs {
+  padding-top: 0;
+}
+/*Caption Styles-----------------------------------------------------------*/
+.caption {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  background: rgba(0,0,0,0.55);
+  width: 100%;
+  padding: 20px 10px;
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  left: 0;
+  bottom: -30%;
+  text-align: center;
+}
+.caption-wrap {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.caption-wrap:hover .caption{
+  opacity: 1;
+  bottom: 0;
+}
+/*Body Section------------------------------------------------------------*/
+body .body-section {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background: white;
+}
+
+/*Footer------------------------------------------------------------------*/
+body .footer {
+  clear: both;
+  padding-top: 4.5em;
+  padding-bottom: 4.5em;
+}
+
+/*body.featured .footer       {background: #3da9dc;}
+body.websites .footer       {background: #18a68d}
+body.illustrations .footer  {background: #96ceb7;}
+body.paintings .footer      {background: rgb(121, 120, 129);}
+body.show_all .footer       {background: #607eb5;}
+
+body.about .footer {
+  background-color: #7948b9;
+}*/
+
+body.featured .button       {background: #3da9dc;}
+body.websites .button       {background: #18a68d;}
+body.illustrations .button  {background: #96ceb7;}
+body.paintings .button      {background: rgb(121, 120, 129);}
+body.show_all .button       {background: #607eb5;}
+
+.footer-body {
+  text-align: center;
+}
+
+.footer-body a {
+  margin-right: 30px;
+}
+
+.footer-body a:last-child {
+  margin-right: 0;
+}
+
+.footer .copyright-stamp {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/*About Page -------------------------------------------------------------*/
+.about .bold-header {
+  font-size: 44px;
+  font-weight: bold;
+  color: #7948b9;
+}
+
+.about .about-me-text {
+  font-size: 20px;
+}
+
+.about .about-me-text .intro {
+  font-size: 28px;
+}
+
+.about .my_portrait {
+  width: 100%;
+  padding-bottom: 35px;
+  padding-top: 100px;
+}
+
+/*MISC -------------------------------------------------------------*/
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+button.fancybox-button {
+  height: 80px;
+  width: 80px;
+  position: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+  button.fancybox-button {
+    position: absolute;
+  }
+}
+
+button.fancybox-button:hover {
+  background-color: white;
+}
+
+.fancybox-slide--html {
+  padding: 0;
+  min-height: 100%;
+}
+
+.fancybox-content {
+  padding: 10px;
+}
+
+@media only screen and (min-width : 992px) {
+  .fancybox-can-swipe .fancybox-content, 
+  .fancybox-can-pan .fancybox-content {
+    cursor: auto;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.push-top {
+  margin-top: 60px;
+}
+.push-top-mini {
+  margin-top: 15px;
+}
+.push-bottom {
+  margin-bottom: 60px;
+}
+
+.push-bottom-mini {
+  margin-bottom: 15px;
+}
+
+.image-frame {
+  border: 1px solid #ccc;
+}
+
+.body-header {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+.box {
+  padding: 15px;
+  font-size: 14px;
+}
+
+.box-bg {
+  background-color: #f2f2f2;
+}
+
+.box-border {
+  border: 1px solid #ccc;
+}
+
+.centered {
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+@media only screen and (min-width: 600px) {
+  .fancybox-close-small::after {
+    content: "Esc to Exit";
+    font-weight: 100;
+    position: absolute;
+    color: #808080;
+    left: 5px;
+    font-size: 14px;
+  }
+}
+
+.mix a.fancybox img {
+  width: 100%;
+}
